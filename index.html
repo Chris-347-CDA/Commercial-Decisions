@@ -3,104 +3,150 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Matt [Surname] | Commercial Decision Advisor</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+<title>Chris [Surname] | Independent Commercial Decision Partner</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
 }
 
 body{
-    font-family:'Inter',sans-serif;
-    color:#111;
-    background:white;
-    line-height:1.7;
+font-family:'Inter',sans-serif;
+background:#fafafa;
+color:#1f2937;
+line-height:1.7;
 }
 
 .container{
-    max-width:900px;
-    margin:auto;
-    padding:80px 30px;
+max-width:1100px;
+margin:auto;
+padding:0 30px;
 }
 
 .hero{
-    min-height:90vh;
-    display:flex;
-    align-items:center;
+min-height:100vh;
+display:flex;
+align-items:center;
 }
 
-h1{
-    font-size:4rem;
-    line-height:1.05;
-    margin-bottom:30px;
-    font-weight:800;
+.hero h1{
+font-size:4rem;
+line-height:1.05;
+font-weight:800;
+margin-bottom:30px;
+max-width:800px;
 }
 
-h2{
-    font-size:2.3rem;
-    margin-bottom:30px;
-    font-weight:700;
-}
-
-p{
-    font-size:1.2rem;
-    color:#555;
-    margin-bottom:20px;
+.hero p{
+font-size:1.3rem;
+max-width:700px;
+color:#555;
+margin-bottom:40px;
 }
 
 .button{
-    display:inline-block;
-    margin-top:30px;
-    background:#17324D;
-    color:white;
-    padding:18px 34px;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:600;
+display:inline-block;
+background:#111827;
+color:white;
+padding:18px 34px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+transition:.25s;
+}
+
+.button:hover{
+background:#374151;
 }
 
 section{
-    padding:100px 0;
-    border-top:1px solid #eee;
+padding:100px 0;
 }
 
-ul{
-    margin-top:30px;
+h2{
+font-size:2.6rem;
+margin-bottom:30px;
 }
 
-li{
-    font-size:1.2rem;
-    margin-bottom:15px;
-    list-style:none;
+.lead{
+font-size:1.25rem;
+color:#555;
+max-width:800px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:16px;
+box-shadow:0 8px 30px rgba(0,0,0,.05);
+}
+
+.card h3{
+margin-bottom:15px;
+font-size:1.4rem;
+}
+
+.framework{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+margin-top:50px;
+}
+
+.step{
+background:white;
+padding:30px;
+border-left:5px solid #111827;
+border-radius:10px;
 }
 
 .quote{
-    font-size:2rem;
-    font-weight:700;
-    color:#17324D;
-    margin:30px 0;
+font-size:2rem;
+font-weight:700;
+max-width:900px;
+line-height:1.3;
 }
 
-.footer{
-    text-align:center;
-    padding:80px 30px;
+footer{
+padding:80px 30px;
+text-align:center;
+background:#111827;
+color:white;
+}
+
+footer a{
+color:white;
 }
 
 @media(max-width:768px){
 
-h1{
+.hero h1{
 font-size:2.8rem;
 }
 
 h2{
 font-size:2rem;
+}
+
+.quote{
+font-size:1.5rem;
 }
 
 }
@@ -111,53 +157,21 @@ font-size:2rem;
 
 <body>
 
-<div class="container hero">
+<div class="container">
+
+<section class="hero">
 
 <div>
 
-<h1>Helping leadership teams make better commercial decisions.</h1>
+<p style="font-weight:600;color:#111827;">Chris [Surname] • Independent Commercial Decision Partner</p>
 
-<p>Most businesses don't have a shortage of data.</p>
+<h1>Better decisions start with better questions.</h1>
 
-<p><strong>They have a shortage of clarity.</strong></p>
+<p>
+I help founders, Managing Directors and leadership teams make confident commercial decisions through structured thinking, evidence and independent challenge.
+</p>
 
-<p>I help leadership teams turn complexity into confident commercial decisions by challenging assumptions, interpreting evidence and focusing on the questions that matter most.</p>
-
-<a class="button" href="mailto:your@email.com">Let's Talk</a>
-
-</div>
-
-</div>
-
-<section>
-
-<div class="container">
-
-<h2>Most businesses don't have a data problem.</h2>
-
-<div class="quote">
-They have a decision problem.
-</div>
-
-<p>Businesses today have more reports, dashboards and information than ever before.</p>
-
-<p>Yet leadership teams are still asking...</p>
-
-<ul>
-
-<li>Should we grow?</li>
-
-<li>Can we afford to recruit?</li>
-
-<li>Should we invest?</li>
-
-<li>Can we trust our forecast?</li>
-
-<li>Where should we focus next?</li>
-
-<li>What happens if we're wrong?</li>
-
-</ul>
+<a class="button" href="mailto:youremail@email.com">Start a Conversation</a>
 
 </div>
 
@@ -165,29 +179,79 @@ They have a decision problem.
 
 <section>
 
-<div class="container">
+<h2>Your business probably doesn't need more data.</h2>
 
-<h2>Every engagement starts with one question.</h2>
+<p class="lead">
 
-<div class="quote">
-"What decision are we trying to make?"
+It needs better thinking.
+
+As businesses grow, decisions become more complex. More investment. More people. More risk.
+
+Most businesses already have reports, dashboards and forecasts.
+
+What they often don't have is the time, commercial capability or independent perspective to challenge assumptions before committing.
+
+That's where I help.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>How I help</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Decision Partner</h3>
+
+<p>
+
+Ongoing commercial support for leadership teams making important business decisions.
+
+An independent thinking partner to challenge assumptions, explore options and bring confidence to complex choices.
+
+</p>
+
 </div>
 
-<p>Everything else follows.</p>
+<div class="card">
 
-<ul>
+<h3>Decision Sprint</h3>
 
-<li>Understand the evidence.</li>
+<p>
 
-<li>Challenge assumptions.</li>
+When one decision matters.
 
-<li>Explore the options.</li>
+I'll work alongside your team to structure the problem, analyse the evidence and help you choose the right path.
 
-<li>Understand the implications.</li>
+</p>
 
-<li>Recommend a way forward.</li>
+</div>
 
-</ul>
+<div class="card">
+
+<h3>Commercial Projects</h3>
+
+<p>
+
+Forecasting.
+
+Scenario planning.
+
+Capacity planning.
+
+Commercial modelling.
+
+Management information.
+
+Delivery support where additional capability is needed.
+
+</p>
+
+</div>
 
 </div>
 
@@ -195,19 +259,63 @@ They have a decision problem.
 
 <section>
 
-<div class="container">
+<h2>The Decision Framework</h2>
 
-<h2>About Me</h2>
+<p class="lead">
 
-<p>I've spent my career helping senior leaders navigate complex commercial decisions through strategic planning, forecasting and commercial insight.</p>
+Every engagement follows the same simple process.
 
-<p>Over time I realised something.</p>
+</p>
 
-<p><strong>Businesses rarely struggle because they lack data.</strong></p>
+<div class="framework">
 
-<p><strong>They struggle because making the right decision is hard.</strong></p>
+<div class="step">
 
-<p>I'm now working with a small number of growing businesses to provide the commercial thinking, challenge and clarity that helps leadership teams make confident decisions.</p>
+<h3>1. Ask</h3>
+
+<p>What decision are we actually trying to make?</p>
+
+</div>
+
+<div class="step">
+
+<h3>2. Understand</h3>
+
+<p>What do we know? What don't we know?</p>
+
+</div>
+
+<div class="step">
+
+<h3>3. Challenge</h3>
+
+<p>Which assumptions matter most?</p>
+
+</div>
+
+<div class="step">
+
+<h3>4. Explore</h3>
+
+<p>What realistic options exist?</p>
+
+</div>
+
+<div class="step">
+
+<h3>5. Decide</h3>
+
+<p>Which path gives us the greatest confidence?</p>
+
+</div>
+
+<div class="step">
+
+<h3>6. Learn</h3>
+
+<p>What can this decision teach us for next time?</p>
+
+</div>
 
 </div>
 
@@ -215,24 +323,57 @@ They have a decision problem.
 
 <section>
 
-<div class="container">
+<h2>About Chris</h2>
 
-<h2>Let's Talk.</h2>
+<p class="lead">
 
-<p>If you're facing an important commercial decision—or simply want someone to challenge your thinking—I’d love to hear about your business.</p>
+I've spent my career helping senior leaders navigate complex commercial decisions through strategic planning, forecasting and commercial insight.
 
-<a class="button" href="mailto:your@email.com">Start a Conversation</a>
+Over time I realised something.
 
-</div>
+Businesses rarely need more information.
+
+They need better thinking.
+
+Today I work alongside growing businesses as an independent commercial thinking partner—bringing structure, evidence and practical commercial challenge to the decisions that matter most.
+
+My goal isn't to make decisions for you.
+
+It's to help you make better ones—and leave your business asking better questions long after I've gone.
+
+</p>
 
 </section>
 
-<div class="footer">
+<section>
 
-<p>© Matt [Surname]</p>
+<p class="quote">
+
+"Good decisions rarely start with good answers.
+
+They start with good questions."
+
+</p>
+
+</section>
 
 </div>
+
+<footer>
+
+<h2>Let's Talk</h2>
+
+<p>
+
+If you're facing an important commercial decision—or simply want an independent perspective before making one—I'd love to hear about it.
+
+</p>
+
+<br>
+
+<a class="button" href="mailto:youremail@email.com">Email Chris</a>
+
+</footer>
 
 </body>
-
 </html>
